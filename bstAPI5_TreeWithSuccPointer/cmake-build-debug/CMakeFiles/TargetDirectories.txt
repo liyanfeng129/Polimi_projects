@@ -1,0 +1,3 @@
+C:/Users/liyan/CLionProjects/bstAPI5_TreeWithSuccPointer/cmake-build-debug/CMakeFiles/bstAPI5_TreeWithSuccPointer.dir
+C:/Users/liyan/CLionProjects/bstAPI5_TreeWithSuccPointer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/liyan/CLionProjects/bstAPI5_TreeWithSuccPointer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

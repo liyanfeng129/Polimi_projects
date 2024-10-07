@@ -1,0 +1,850 @@
+desc: --massif-out-file=memory2
+cmd: ./eseguibile
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=670321
+mem_heap_B=454041
+mem_heap_extra_B=8415
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=1710995
+mem_heap_B=539673
+mem_heap_extra_B=22687
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=2475162
+mem_heap_B=599769
+mem_heap_extra_B=32703
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=3025561
+mem_heap_B=642057
+mem_heap_extra_B=39751
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=4250758
+mem_heap_B=734169
+mem_heap_extra_B=55103
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=5045329
+mem_heap_B=792921
+mem_heap_extra_B=64895
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=5908556
+mem_heap_B=855897
+mem_heap_extra_B=75391
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=6477186
+mem_heap_B=896985
+mem_heap_extra_B=82239
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=7616624
+mem_heap_B=978537
+mem_heap_extra_B=95831
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=8429539
+mem_heap_B=1036233
+mem_heap_extra_B=105447
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=9323996
+mem_heap_B=1099257
+mem_heap_extra_B=115951
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=10454037
+mem_heap_B=1178121
+mem_heap_extra_B=129095
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=11096723
+mem_heap_B=1222665
+mem_heap_extra_B=136519
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1222665 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 818400 0x10930B: new_bstTreeNode (main.c:236)
+  n0: 818400 0x10930B: main (main.c:620)
+ n1: 400000 0x1098D8: new_wordsBuffer (main.c:25)
+  n0: 400000 0x109271: main (main.c:608)
+ n0: 4265 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=11995546
+mem_heap_B=1284537
+mem_heap_extra_B=146831
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=12765562
+mem_heap_B=1337193
+mem_heap_extra_B=155607
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=13793190
+mem_heap_B=1407321
+mem_heap_extra_B=167295
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=14692383
+mem_heap_B=1468473
+mem_heap_extra_B=177487
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=15334175
+mem_heap_B=1512057
+mem_heap_extra_B=184751
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=16233090
+mem_heap_B=1572969
+mem_heap_extra_B=194903
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1572969 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1168704 0x10930B: new_bstTreeNode (main.c:236)
+  n0: 1168704 0x10930B: main (main.c:620)
+ n1: 400000 0x1098D8: new_wordsBuffer (main.c:25)
+  n0: 400000 0x109271: main (main.c:608)
+ n0: 4265 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=17208256
+mem_heap_B=1638297
+mem_heap_extra_B=205791
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=18427158
+mem_heap_B=1719753
+mem_heap_extra_B=219367
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=19402600
+mem_heap_B=1784457
+mem_heap_extra_B=230151
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=20378424
+mem_heap_B=1849353
+mem_heap_extra_B=240967
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=21109747
+mem_heap_B=1897593
+mem_heap_extra_B=249007
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1897593 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1493328 0x10930B: new_bstTreeNode (main.c:236)
+  n0: 1493328 0x10930B: main (main.c:620)
+ n1: 400000 0x1098D8: new_wordsBuffer (main.c:25)
+  n0: 400000 0x109271: main (main.c:608)
+ n0: 4265 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=22084428
+mem_heap_B=1961817
+mem_heap_extra_B=259711
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=23059995
+mem_heap_B=2026137
+mem_heap_extra_B=270431
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=23792244
+mem_heap_B=2074137
+mem_heap_extra_B=278431
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=24523571
+mem_heap_B=2121897
+mem_heap_extra_B=286391
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=25255476
+mem_heap_B=2169609
+mem_heap_extra_B=294343
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=26231170
+mem_heap_B=2233161
+mem_heap_extra_B=304935
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=27206808
+mem_heap_B=2296665
+mem_heap_extra_B=315519
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=28426963
+mem_heap_B=2375433
+mem_heap_extra_B=328647
+mem_stacks_B=0
+heap_tree=detailed
+n3: 2375433 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1971168 0x10930B: new_bstTreeNode (main.c:236)
+  n0: 1971168 0x10930B: main (main.c:620)
+ n1: 400000 0x1098D8: new_wordsBuffer (main.c:25)
+  n0: 400000 0x109271: main (main.c:608)
+ n0: 4265 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=29402152
+mem_heap_B=2438073
+mem_heap_extra_B=339087
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=30702630
+mem_heap_B=2521305
+mem_heap_extra_B=352959
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=31677976
+mem_heap_B=2583561
+mem_heap_extra_B=363335
+mem_stacks_B=0
+heap_tree=detailed
+n3: 2583561 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2179296 0x10930B: new_bstTreeNode (main.c:236)
+  n0: 2179296 0x10930B: main (main.c:620)
+ n1: 400000 0x1098D8: new_wordsBuffer (main.c:25)
+  n0: 400000 0x109271: main (main.c:608)
+ n0: 4265 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=32328503
+mem_heap_B=2625225
+mem_heap_extra_B=370279
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=33628388
+mem_heap_B=2708121
+mem_heap_extra_B=384111
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=34278292
+mem_heap_B=2749737
+mem_heap_extra_B=391047
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=35492052
+mem_heap_B=2805215
+mem_heap_extra_B=400289
+mem_stacks_B=0
+heap_tree=detailed
+n3: 2805215 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x10930B: new_bstTreeNode (main.c:236)
+  n0: 2400000 0x10930B: main (main.c:620)
+ n1: 400000 0x1098D8: new_wordsBuffer (main.c:25)
+  n0: 400000 0x109271: main (main.c:608)
+ n0: 5215 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=50841357
+mem_heap_B=2809103
+mem_heap_extra_B=400297
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=51491848
+mem_heap_B=2838095
+mem_heap_extra_B=405129
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=52467272
+mem_heap_B=2881631
+mem_heap_extra_B=412385
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=53768252
+mem_heap_B=2939279
+mem_heap_extra_B=421993
+mem_stacks_B=0
+heap_tree=detailed
+n4: 2939279 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x10930B: new_bstTreeNode (main.c:236)
+  n0: 2400000 0x10930B: main (main.c:620)
+ n1: 400000 0x1098D8: new_wordsBuffer (main.c:25)
+  n0: 400000 0x109271: main (main.c:608)
+ n1: 130224 0x1094AF: new_bstTreeNode (main.c:236)
+  n0: 130224 0x1094AF: main (main.c:710)
+ n0: 9055 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=44
+#-----------
+time=54418846
+mem_heap_B=2967839
+mem_heap_extra_B=426753
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=55069943
+mem_heap_B=2996255
+mem_heap_extra_B=431489
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=56370933
+mem_heap_B=3053615
+mem_heap_extra_B=441049
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=57022258
+mem_heap_B=3082367
+mem_heap_extra_B=445841
+mem_stacks_B=0
+heap_tree=detailed
+n4: 3082367 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x10930B: new_bstTreeNode (main.c:236)
+  n0: 2400000 0x10930B: main (main.c:620)
+ n1: 400000 0x1098D8: new_wordsBuffer (main.c:25)
+  n0: 400000 0x109271: main (main.c:608)
+ n1: 273312 0x1094AF: new_bstTreeNode (main.c:236)
+  n0: 273312 0x1094AF: main (main.c:710)
+ n0: 9055 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=58322924
+mem_heap_B=3139103
+mem_heap_extra_B=455297
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=59624083
+mem_heap_B=3195743
+mem_heap_extra_B=464737
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=60162004
+mem_heap_B=3219807
+mem_heap_extra_B=468713
+mem_stacks_B=0
+heap_tree=detailed
+n4: 3219807 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x10930B: new_bstTreeNode (main.c:236)
+  n0: 2400000 0x10930B: main (main.c:620)
+ n1: 410496 0x1094AF: new_bstTreeNode (main.c:236)
+  n0: 410496 0x1094AF: main (main.c:710)
+ n1: 400000 0x1098D8: new_wordsBuffer (main.c:25)
+  n0: 400000 0x109271: main (main.c:608)
+ n0: 9311 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=71838335
+mem_heap_B=3219807
+mem_heap_extra_B=468713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=80237810
+mem_heap_B=3219807
+mem_heap_extra_B=468713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=86067044
+mem_heap_B=3219807
+mem_heap_extra_B=468713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=89864235
+mem_heap_B=3219807
+mem_heap_extra_B=468713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=92689697
+mem_heap_B=3219807
+mem_heap_extra_B=468713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=94521630
+mem_heap_B=3219807
+mem_heap_extra_B=468713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=95681128
+mem_heap_B=3219807
+mem_heap_extra_B=468713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=96509844
+mem_heap_B=3219807
+mem_heap_extra_B=468713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=109458280
+mem_heap_B=3219807
+mem_heap_extra_B=468713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=111290969
+mem_heap_B=3219807
+mem_heap_extra_B=468713
+mem_stacks_B=0
+heap_tree=detailed
+n4: 3219807 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x10930B: new_bstTreeNode (main.c:236)
+  n0: 2400000 0x10930B: main (main.c:620)
+ n1: 410496 0x1094AF: new_bstTreeNode (main.c:236)
+  n0: 410496 0x1094AF: main (main.c:710)
+ n1: 400000 0x1098D8: new_wordsBuffer (main.c:25)
+  n0: 400000 0x109271: main (main.c:608)
+ n0: 9311 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=61
+#-----------
+time=112006274
+mem_heap_B=3219807
+mem_heap_extra_B=468713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=112879871
+mem_heap_B=3219807
+mem_heap_extra_B=468713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=113440833
+mem_heap_B=3219807
+mem_heap_extra_B=468713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=113991593
+mem_heap_B=3223967
+mem_heap_extra_B=469441
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=114542672
+mem_heap_B=3249167
+mem_heap_extra_B=473641
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=115093143
+mem_heap_B=3281327
+mem_heap_extra_B=479001
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=115643543
+mem_heap_B=3313247
+mem_heap_extra_B=484321
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=116194338
+mem_heap_B=3344783
+mem_heap_extra_B=489577
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=116744831
+mem_heap_B=3376175
+mem_heap_extra_B=494809
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=117295861
+mem_heap_B=3407855
+mem_heap_extra_B=500089
+mem_stacks_B=0
+heap_tree=detailed
+n4: 3407855 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x10930B: new_bstTreeNode (main.c:236)
+  n0: 2400000 0x10930B: main (main.c:620)
+ n1: 598800 0x1094AF: new_bstTreeNode (main.c:236)
+  n0: 598800 0x1094AF: main (main.c:710)
+ n1: 400000 0x1098D8: new_wordsBuffer (main.c:25)
+  n0: 400000 0x109271: main (main.c:608)
+ n0: 9055 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=71
+#-----------
+time=117846704
+mem_heap_B=3439487
+mem_heap_extra_B=505361
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=118397378
+mem_heap_B=3470879
+mem_heap_extra_B=510593
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=118947956
+mem_heap_B=3495167
+mem_heap_extra_B=514641
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=119498953
+mem_heap_B=3526175
+mem_heap_extra_B=519809
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=120050253
+mem_heap_B=3557135
+mem_heap_extra_B=524969
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=120601051
+mem_heap_B=3588191
+mem_heap_extra_B=530145
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=121151472
+mem_heap_B=4023135
+mem_heap_extra_B=535969
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=121702020
+mem_heap_B=4061871
+mem_heap_extra_B=542425
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=122252826
+mem_heap_B=4093263
+mem_heap_extra_B=547657
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=122803231
+mem_heap_B=4128159
+mem_heap_extra_B=553473
+mem_stacks_B=0
+heap_tree=detailed
+n4: 4128159 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x10930B: new_bstTreeNode (main.c:236)
+  n0: 2400000 0x10930B: main (main.c:620)
+ n1: 919104 0x1094AF: new_bstTreeNode (main.c:236)
+  n0: 919104 0x1094AF: main (main.c:710)
+ n1: 800000 0x10999D: resizeBuffer (main.c:32)
+  n1: 800000 0x10999D: new_word (main.c:45)
+   n0: 800000 0x1094A1: main (main.c:710)
+ n0: 9055 in 14 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=81
+#-----------
+time=123354405
+mem_heap_B=4160943
+mem_heap_extra_B=558937
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=123905100
+mem_heap_B=4193679
+mem_heap_extra_B=564393
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=124455511
+mem_heap_B=4227615
+mem_heap_extra_B=570049
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=125006532
+mem_heap_B=4260255
+mem_heap_extra_B=575489
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=125557029
+mem_heap_B=4292271
+mem_heap_extra_B=580825
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=126108040
+mem_heap_B=4322991
+mem_heap_extra_B=585945
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=126659141
+mem_heap_B=4357023
+mem_heap_extra_B=591617
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=127217018
+mem_heap_B=4389135
+mem_heap_extra_B=596969
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=127768034
+mem_heap_B=4421535
+mem_heap_extra_B=602369
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=128319213
+mem_heap_B=4453215
+mem_heap_extra_B=607649
+mem_stacks_B=0
+heap_tree=detailed
+n4: 4453215 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x10930B: new_bstTreeNode (main.c:236)
+  n0: 2400000 0x10930B: main (main.c:620)
+ n1: 1244160 0x1094AF: new_bstTreeNode (main.c:236)
+  n0: 1244160 0x1094AF: main (main.c:710)
+ n1: 800000 0x10999D: resizeBuffer (main.c:32)
+  n1: 800000 0x10999D: new_word (main.c:45)
+   n0: 800000 0x1094A1: main (main.c:710)
+ n0: 9055 in 14 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=91
+#-----------
+time=137548655
+mem_heap_B=4481631
+mem_heap_extra_B=612385
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=92
+#-----------
+time=145613124
+mem_heap_B=4481775
+mem_heap_extra_B=612409
+mem_stacks_B=0
+heap_tree=peak
+n4: 4481775 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x10930B: new_bstTreeNode (main.c:236)
+  n0: 2400000 0x10930B: main (main.c:620)
+ n1: 1272720 0x1094AF: new_bstTreeNode (main.c:236)
+  n0: 1272720 0x1094AF: main (main.c:710)
+ n1: 800000 0x10999D: resizeBuffer (main.c:32)
+  n1: 800000 0x10999D: new_word (main.c:45)
+   n0: 800000 0x1094A1: main (main.c:710)
+ n0: 9055 in 14 places, all below massif's threshold (1.00%)
