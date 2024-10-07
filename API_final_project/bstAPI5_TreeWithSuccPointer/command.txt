@@ -1,0 +1,6 @@
+valgrind --tool=callgrind --callgrind-out-file=time ./eseguibile <test3.txt
+kcachegrind time
+export DISPLAY=$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print $4}'):0.0
+
+valgrind --tool=massif --massif-out-file=memory ./eseguibile
+massif-visualizer memory
